@@ -72,7 +72,7 @@
 &kp F1                    &kp F2       &kp F3        &kp F4         &kp F5      &kp F6             &kp F7          &kp F8          &kp F9           &kp ESC
 &kp C_VOLUME_UP           &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME    &kp K_SCROLL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp RCTRL
 &mt K_MUTE C_VOLUME_DOWN  &kp LEFT     &kp DOWN      &kp RIGHT      &kp END     &kp K_SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DEL
-&to 0                     &kp SPACE                                                                                                &kp ENTER        &mo 2
+&to 0                     &kp SPACE                                                                                                &kp ENTER        &to 2
             >;
         };
 
