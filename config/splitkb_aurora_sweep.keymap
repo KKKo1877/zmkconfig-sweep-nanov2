@@ -85,12 +85,12 @@
             >;
         };
 
-        tri_layer {
+        Symbol_world {
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4  &kp N5    &trans  &trans     &trans        &trans      &trans
-&kp F1      &kp F2      &kp F3      &kp F4  &kp F5    &trans  &kp PG_UP  &kp K_VOL_UP  &kp K_MUTE  &trans
-&bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &kp F6  &kp F7    &trans  &kp PG_DN  &kp K_VOL_DN  &trans      &trans
-&trans      &trans                                                                     &trans      &trans
+&kp ESC    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE    &kp MINUS     &kp HASH    &kp APOS      &none       &none
+&kp LCTRL  &kp LEFT_ALT      &kp LEFT_GUI       &kp LEFT_SHIFT        &kp PRINTSCREEN     &kp QUESTION  &kp PLUS    &kp K_VOL_UP  &kp K_MUTE  &none
+&none      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp PERCENT         &kp EXCL      &kp PERIOD  &kp K_VOL_DN  &none       &to 2
+&to 0      &kp SPACE                                                                                                              &kp ENTER   &to 1
             >;
         };
     };
