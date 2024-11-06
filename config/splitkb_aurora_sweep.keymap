@@ -125,19 +125,19 @@
 
         Number_word {
             bindings = <
-&kp ESC        &kp N1     &kp N2  &kp N3  &kp MINUS    &bt BT_CLR    &bt BT_SEL 2  &kp K_PREV       &kp K_PP           &kp K_NEXT
-&kp BACKSPACE  &kp N4     &kp N5  &kp N6  &kp PLUS     &bt BT_SEL 0  &bt BT_SEL 3  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE
-&kp C_RESET    &kp N7     &kp N8  &kp N9  &kp N0       &bt BT_SEL 1  &bt BT_SEL 4  &kp C_BRI_UP     &none              &kp C_BRI_DN
-&to 0          &kp SPACE                                                                            &kp ENTER          &to 3
+&kp ESC         &kp N1     &kp N2  &kp N3  &kp MINUS    &bt BT_CLR    &bt BT_SEL 2  &kp K_PREV       &kp K_PP           &kp K_NEXT
+&kp BACKSPACE   &kp N4     &kp N5  &kp N6  &kp PLUS     &bt BT_SEL 0  &bt BT_SEL 3  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE
+&kp LEFT_SHIFT  &kp N7     &kp N8  &kp N9  &kp N0       &bt BT_SEL 1  &bt BT_SEL 4  &kp C_BRI_UP     &none              &kp C_BRI_DN
+&to 0           &kp SPACE                                                                            &kp ENTER          &to 3
             >;
         };
 
         Symbol_world {
             bindings = <
-&kp ESC    &kp BACKSLASH  &kp SLASH     &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE    &kp MINUS  &kp PLUS      &kp AT                &kp GRAVE              &kp AMPS
-&kp LCTRL  &kp LEFT_ALT   &kp LEFT_GUI  &kp LEFT_SHIFT     &kp PRINTSCREEN     &kp COLON  &kp SEMI      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DLLR
-&none      &kp EQUAL      &kp STAR      &kp HASH           &kp PERCENT         &kp EXCL   &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 2
-&to 0      &kp SPACE                                                                                                          &kp ENTER              &to 1
+&kp ESC         &kp BACKSLASH  &kp SLASH     &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE    &kp MINUS  &kp PLUS      &kp AT                &kp GRAVE              &kp AMPS
+&kp BACKSPACE   &kp LEFT_ALT   &kp LEFT_GUI  &kp LEFT_SHIFT     &kp PRINTSCREEN     &kp COLON  &kp SEMI      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DLLR
+&kp LEFT_SHIFT  &kp EQUAL      &kp STAR      &kp HASH           &kp PERCENT         &kp EXCL   &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 2
+&to 0           &kp SPACE                                                                                                          &kp ENTER              &to 1
             >;
         };
     };
