@@ -110,7 +110,7 @@
 &kp Q         &kp W           &kp F           &kp P             &kp B            &kp J  &kp L              &kp U            &kp Y            &kp SEMI
 &mt LCTRL A   &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T  &kp G            &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O
 &mt K_REDO Z  &mt K_CUT X     &mt K_COPY C    &kp D             &mt K_PASTE V    &kp K  &kp H              &kp COMMA        &kp DOT          &kp FSLH
-&kp K_REDO    &kp SPACE                                                                                                     &kp ENTER        &to 1
+&kp C_REPEAT  &kp SPACE                                                                                                     &kp ENTER        &to 1
             >;
         };
 
